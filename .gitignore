@@ -1,0 +1,6 @@
+*.csv
+.env
+*.whl
+example.ipynb
+testing.py
+RHTradingBot.ipynb
