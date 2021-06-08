@@ -43,7 +43,12 @@ class Stock_Predict():
         
     def plot_stock(self):
         df1 = self.get_df()
+        plt.title('Close Price History of {}'.format(self.stock))
         plt.plot(df1)
+        plt.xlabel('Date', fontsize=18)
+        plt.ylabel('Close Price History USD($)', fontsize=18)
+        plt.show
+        
         
     def get_scaled_data(self):
         df1 = self.get_df()
